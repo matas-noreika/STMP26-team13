@@ -1,0 +1,55 @@
+# This is a configuration file for the github pages site
+
+# Site information configuration
+site_name: STMP26-team13
+site_url: https://matas-noreika.github.io/STMP26-team13
+site_description: STMP Team 13 geofencing project
+site_author: STMP Team 13
+repo_name: matas-noreika/STMP26-team13
+repo_url: https://github.com/matas-noreika/STMP26-team13
+
+# Navigation configuration
+nav:
+  - index.md
+  - data: data.md
+
+# Markdown extensions
+# This will enable language synatax highlighting on code blocks and more extended features
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+
+# Site theme configuration
+theme:
+  name: material
+  # logo: img/icon.png
+  # favicon: img/favicon.png
+  language: en
+  # color setup
+  palette:
+    primary: indigo
+    accent: indigo
+  # font setup
+  font:
+    text: Roboto
+    code: Roboto Mono
+  # style features
+  features:
+    - Navigation.tabs # makes top level headers appear as tabs
+    - Navigation.footer # enables foooter customisation
+    - content.code.copy # create a copy button for code blocks
+    - content.code.select # creates lines select button for code blocks
+    - content.code.annotate # enables code annotations
+    - content.footnote.tooltips # enable footnotes for referencing
+# footer customisation
+extra:
+  # disable made with mkdocs-material
+  generator: false
+

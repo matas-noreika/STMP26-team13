@@ -1,0 +1,29 @@
+---
+title: Home
+description: Home page of team 13 STMP project
+icon: material/home
+---
+
+# Home
+
+## Project Overview
+
+The project is concerned with implementing geofencing, the following is a
+definition of what is geofencing:
+
+_Geofencing is a location-based technology that creates a virtual boundary around a specific, real-world geographic area. When a connected mobile device, vehicle, or asset crosses this invisible perimeter, it triggers a pre-programmed automated action like a notification, ad, or security alert.[^1]_
+
+## Hardware
+
+The following is a list of hardware required to reproduce this project:
+
+* [Tenstar ESP32_S3](https://www.aliexpress.com/item/1005008500815036.html?pdp_npi=6%40dis%21EUR%2134.51%2116.56%21%21%21260.49%21125.04%21%402101611117824851243051027e1134%2112000045439248285%21affd%21%21%21%211%210%21&dp=EAIaIQobChMIkZT5ndKtlQMVEpRQBh0B6RXVEAQYASABEgIqy_D_BwE%7C0AAAAAC5ena2dpSa-XTXsm0ThMyIJ9SGpj%7CCj4KCAjwjIPSBhBeEi4AlMGF8ImMCW9-rdlgpwfgbAhnECoxjQbm6oXxxZG2ut4DdVZbyTpNGW1ZbxZdGgK-dw%7Cv1&cn=ie_a&gad_source=1&aff_fcid=09832cfa753144118bb522a3197f074f-1782777102033-07399-_onKPRpM&aff_fsk=_onKPRpM&aff_platform=api-new-product-query&sk=_onKPRpM&aff_trace_key=09832cfa753144118bb522a3197f074f-1782777102033-07399-_onKPRpM&terminal_id=dc9ddf851a9b4005b87484176445975d&afSmartRedirect=y)
+* [Waveshare GNSS Hat](https://www.aliexpress.com/item/1005006039603955.html?pdp_npi=6%40dis%21EUR%2154.75%2149.28%21%21%2160.74%2154.67%21%402151fd2c17824830918857479e0f52%2112000035440298330%21affd%21%21%21%211%210%21&dp=EAIaIQobChMI_rjlrNKtlQMVlp1QBh1TkD3_EAQYAiABEgJ-WvD_BwE&cn=bravoie&gad_source=1&gad_campaignid=23465405014&gbraid=0AAAABClxYHR30p8V9fLPrW-M_wf1SCwvu&aff_fcid=9e8a287a2c8f4c4abd96638d29a11599-1782777134856-05175-_ooeXU2A&aff_fsk=_ooeXU2A&aff_platform=bops-tool&sk=_ooeXU2A&aff_trace_key=9e8a287a2c8f4c4abd96638d29a11599-1782777134856-05175-_ooeXU2A&terminal_id=dc9ddf851a9b4005b87484176445975d&afSmartRedirect=y)
+
+## Software Overview
+
+_TBD_
+
+## References
+
+[^1]: R. Awati, “What is geofencing and how is it used? – TechTarget Definition,” TechTarget, Dec. 21, 2022. [Online]. Available: <https://www.techtarget.com/whatis/definition/geofencing>. [Accessed: Jun. 30, 2026].
