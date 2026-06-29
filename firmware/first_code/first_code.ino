@@ -1,17 +1,19 @@
+#include <TinyGPSPlus.h>
+
 // Include the TinyGPS++ library to parse NMEA data sentences from the Waveshare module
-#include <TinyGPS++.h>
+//#include <TinyGPS++.h>
 
 // Include the SoftwareSerial library to allow serial communication on digital pins
-#include <SoftwareSerial.h>
+//#include <SoftwareSerial.h>
 
 // Define the Arduino pin connected to the Waveshare module's Transmit (TX) pin
-const int Waveshare_TX_Pin = 2; 
+const int Waveshare_TX_Pin = 18; 
 
 // Define the Arduino pin connected to the Waveshare module's Receive (RX) pin
-const int Waveshare_RX_Pin = 3;
+const int Waveshare_RX_Pin = 17;
 
 // Set the communication speed for the Waveshare GPS chip (9600 is standard for L76X/MAX-M8Q)
-const uint32_t GPSBaud = 9600; 
+const uint32_t GPSBaud = 115200; 
 
 // Define the exact Latitude coordinate of the center of your geofence target area
 const double TARGET_LAT = 53.349805;       
@@ -26,7 +28,7 @@ const double GEOFENCE_RADIUS_METERS = 100.0;
 TinyGPSPlus gps;
 
 // Initialize a SoftwareSerial object named 'ss' using our defined RX and TX pins
-SoftwareSerial ss(Waveshare_TX_Pin, Waveshare_RX_Pin);
+HardwareSerial ss(1);
 
 // The setup function runs once when the Arduino boots up or resets
 void setup() {
@@ -34,7 +36,7 @@ void setup() {
   Serial.begin(115200); 
   
   // Initialize the software serial port to start listening to the Waveshare module
-  ss.begin(GPSBaud);    
+  ss.begin(GPSBaud, SERIAL_8N1, Waveshare_RX_Pin, Waveshare_TX_Pin);    
   
   // Configure the Arduino's built-in LED pin as an output component
   pinMode(LED_BUILTIN, OUTPUT);
