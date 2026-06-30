@@ -34,6 +34,7 @@ theme:
   language: en
   # color setup
   palette:
+    scheme: slate
     primary: indigo
     accent: indigo
   # font setup
