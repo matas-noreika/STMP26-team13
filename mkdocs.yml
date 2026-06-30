@@ -16,6 +16,7 @@ nav:
 # Markdown extensions
 # This will enable language synatax highlighting on code blocks and more extended features
 markdown_extensions:
+  - footnotes
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
