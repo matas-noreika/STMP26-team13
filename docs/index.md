@@ -45,9 +45,10 @@ The following is a list of hardware required to reproduce this project:
 8. The data collected is sent and stored to the github website. 
 
 ## Testing
--- We performed tests to test and setup the Waveshare and Tenstar device, We tested if the Tenstar was connected to the satilite by printing the latitude and longitude to the serial monitor, this was a success.
--- Tested to see if the Tenstar and Waveshare would send a messsage to the github which was a success.
--- Tested to print the location of where we are located which was a success.
+- We performed tests to test and setup the Waveshare and Tenstar device, We tested if the Tenstar was connected to the satilite by printing the latitude and longitude to the serial monitor, this was a success.
+- Tested to see if the Tenstar and Waveshare would send a messsage to the github which was a success.
+- Tested to print the location of where we are located which was a success.
+- Tested the distance range of 500m, it was a success.
 
 ## References
 
