@@ -49,6 +49,16 @@ The following is a list of hardware required to reproduce this project:
 - Tested to print the location of where we are located which was a success.
 - Tested the distance range of 500m, it was a success.
 
+## Logbook
+### Day 1
+We decided on creating geofencing. We programed the Tenstar and Waveshare to calibrate our location using the satilite.
+### Day 2
+We drafted up code to create a program to send a message to github to test to see if the Tenstar is talking to the website.
+### Day 3
+We programmed our device to print a message on the Tenstar to tell us if we´re in or out of our boundary, if we´re outside it´ll send a message to github saying TUD: EXIT
+### Day 4
+Tested our project and created a box to fit our project into.
+
 ## References
 
 [^1]: R. Awati, “What is geofencing and how is it used? – TechTarget Definition,” TechTarget, Dec. 21, 2022. [Online]. Available: <https://www.techtarget.com/whatis/definition/geofencing>. [Accessed: Jun. 30, 2026].
